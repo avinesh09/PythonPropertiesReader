@@ -20,7 +20,7 @@ As a third example, the line:
 specifies that the key is "cheeses" and the associated element is the empty string "". 
 
 
-Features:
+**Features:**
 
 1. key termination characters-  "=" and ":"
 2. All of key termination characters may be included in the key by escaping them with a preceding backslash character; for example,
@@ -41,7 +41,7 @@ As an example, each of the following three lines specifies the key "Truth" and t
 	    #this is property file
         Truth :   Beauty   #do not change
 		
-Usage: 
+**Usage:** 
               
 			  import properties
               props = properties.loadproperties('python.properties')
